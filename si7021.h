@@ -1,11 +1,11 @@
+// author: Pawel Hryniszak
+// bits and pieces stolen from many places...
+
 #ifndef SI7021_H__
 #define SI7021_H__
 
 #include "app_twi.h"
 
-// 0x90 is the LM75B's address in the mbed Application Shield, it contains
-// R/W bit and "nrf_drv_twi" (and consequently "app_twi") requires slave
-// address without this bit, hence shifting.
 #define SI7021_ADDR (0x40U)
 
 // Measure Relative Humidity, Hold Master Mode

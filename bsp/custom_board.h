@@ -1,3 +1,6 @@
+// author: Pawel Hryniszak
+// bits and pieces stolen from many places...
+
 #ifndef BLE400_H
 #define BLE400_H
 

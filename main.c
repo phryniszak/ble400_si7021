@@ -1,3 +1,6 @@
+// author: Pawel Hryniszak
+// bits and pieces stolen from many places...
+
 #include <stdio.h>
 #include "boards.h"
 #include "app_util_platform.h"
